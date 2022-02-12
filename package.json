@@ -1,0 +1,17 @@
+{
+  "name": "ImportarDocElecXml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fast-xml-parser": "^3.19.0",
+    "he": "^1.2.0",
+    "sqlite3": "^5.0.2"
+  }
+}

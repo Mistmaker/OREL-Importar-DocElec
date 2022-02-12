@@ -1,0 +1,26 @@
+DELETE FROM fac_cab;
+DELETE FROM fac_cab_infadi;
+DELETE FROM fac_cab_tci;
+DELETE FROM fac_det;
+DELETE FROM fac_det_detadi;
+DELETE FROM fac_det_imp;
+DELETE FROM ncr_cab;
+DELETE FROM ncr_cab_infadi;
+DELETE FROM ncr_cab_tci;
+DELETE FROM ncr_det;
+DELETE FROM ncr_det_detadi;
+DELETE FROM ncr_det_imp;
+DELETE FROM ndb_cab;
+DELETE FROM ndb_cab_infadi;
+DELETE FROM ndb_cab_tci;
+DELETE FROM ndb_det;
+DELETE FROM ndb_det_detadi;
+DELETE FROM ndb_det_imp;
+DELETE FROM ret_cab;
+DELETE FROM ret_cab_infadi;
+DELETE FROM ret_det_imp;
+DELETE FROM com_proveedores;
+
+SELECT * FROM fac_cab where numeroAutorizacion = '2501202101171200114600120010200000109320001095317' and fechaAutorizacion = '2021-01-25T17:59:35-05:00'
+
+SELECT * FROM fac_cab where numeroAutorizacion = '2501202101171387103400120030010000010651020304017' and fechaAutorizacion = '2021-01-25T15:45:28-05:00'
